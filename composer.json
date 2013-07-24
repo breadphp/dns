@@ -1,0 +1,28 @@
+{
+	"name" : "bread/dns",
+	"description" : "Bread DNS library",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Giovanni Lovato",
+			"email" : "heruan@aldu.net"
+		}
+	],
+	"keywords" : [
+		"bread",
+		"networking",
+		"dns"
+	],
+	"homepage" : "https://github.com/breadphp/dns",
+	"license" : [
+		"CC-BY-3.0"
+	],
+	"require" : {
+		"bread/networking" : "~1.0",
+		"php" : ">=5.4"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Bread\\Networking\\DNS" : "src"
+		}
+	}
+}
